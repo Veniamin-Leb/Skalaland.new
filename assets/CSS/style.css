@@ -1,0 +1,459 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p, a, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+  color: #555;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1580px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.container .main {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+
+.container .main .main__left {
+  width: 49.5%;
+}
+
+.container .main .main__left .left__block {
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.container .main .main__right {
+  width: 49.5%;
+}
+
+.container .main .main__right .right__block {
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.container .main .setting1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: #d7cc65;
+}
+
+.container .main .setting1 h2 {
+  width: 80%;
+  font-family: "Century Gothic",Arial,sans-serif;
+  font-size: 65px;
+  font-weight: 600;
+  color: #fff;
+  background: rgba(0, 181, 209, 0.7);
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px 0;
+  margin: 30px auto 5%;
+}
+
+.container .main .setting1 a {
+  font-family: "Century Gothic",Arial,sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  background: rgba(0, 181, 209, 0.7);
+  padding: 10px 15px;
+  margin: 0 auto;
+}
+
+.container .main .setting1 svg {
+  width: 500px;
+}
+
+.container .main .setting2 {
+  width: 100%;
+  height: 270px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: linear-gradient(-90deg, #65cbd7, #fff);
+  position: relative;
+}
+
+.container .main .setting2 h2 {
+  width: 80%;
+  font-family: "Century Gothic",Arial,sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #38393a;
+  text-transform: uppercase;
+  padding-top: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.container .main .setting2 h3 {
+  font-family: "Century Gothic",Arial,sans-serif;
+  font-size: 32px;
+  color: #10acd5;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  margin-left: 30px;
+}
+
+.container .main .setting2 a {
+  width: 23%;
+  font-family: "Century Gothic",Arial,sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #38393a;
+  border: 1px solid #38393a;
+  padding: 10px 15px;
+  margin-left: 30px;
+}
+
+.container .main .setting2 svg {
+  width: 20%;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1;
+}
+
+.container .main .setting3 {
+  width: 100%;
+  height: 270px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: linear-gradient(-90deg, #38b54b, #fff);
+  position: relative;
+}
+
+.container .main .setting3 h2 {
+  width: 80%;
+  font-family: "Century Gothic",Arial,sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #38393a;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.container .main .setting3 h3 {
+  font-family: "Century Gothic",Arial;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 150%;
+  color: #3c3c3c;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-left: 30px;
+}
+
+.container .main .setting3 a {
+  width: 23%;
+  font-family: "Century Gothic",Arial,sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #38393a;
+  border: 1px solid #38393a;
+  padding: 10px 15px;
+  margin-left: 30px;
+}
+
+.container .main .setting3 svg {
+  width: 20%;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1;
+}
+
+.container .main .setting4 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: #d7cc65;
+}
+
+.container .main .setting4 h2 {
+  width: 80%;
+  font-family: "Century Gothic",Arial,sans-serif;
+  font-size: 65px;
+  font-weight: 600;
+  color: #fff;
+  background: rgba(122, 122, 122, 0.7);
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.container .main .setting4 a {
+  font-family: "Century Gothic",Arial,sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  background: rgba(122, 122, 122, 0.7);
+  padding: 10px 15px;
+  margin: 20px auto 30px;
+}
+
+.container .main .setting4 svg {
+  width: 60%;
+  margin: 30px auto;
+}
+
+.container .main .setting5 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .main .setting5 h2 {
+  width: 100%;
+  font-family: "Century Gothic",Arial,sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #fff;
+  background: #65cbd7;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.container .main .setting5 ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px;
+  list-style: none;
+  list-style-image: url("../img/simvol_metki_na_karte_ios_7_82pfzuefvh7m_16.png");
+}
+
+.container .main .setting5 ul li {
+  width: 40%;
+  font-size: 24px;
+  color: #000;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.container .main .setting6 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.container .main .setting6 h2 {
+  width: 100%;
+  font-family: "Century Gothic",Arial,sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #fff;
+  background: #93cd6c;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.container .main .setting6 h2:last-child {
+  color: transparent;
+}
+
+.container .main .setting6 h3 {
+  width: 100%;
+  margin: 60px 0;
+  font-family: "Century Gothic",Arial;
+  font-size: 49px;
+  font-weight: 300;
+  line-height: 150%;
+  color: #77787b;
+  text-align: center;
+}
+
+.container .main .setting6 svg {
+  width: 18%;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1;
+}
+
+.container footer {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.container footer .footer__info {
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container footer .footer__info p {
+  font-size: 12px;
+  color: #747474;
+}
+
+.container footer .footer__links {
+  width: 40%;
+  display: flex;
+  margin: auto 0;
+  justify-content: space-between;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 5;
+}
+
+header .container .header__logo {
+  width: 10%;
+  max-width: 130px;
+}
+
+header .container .header__links {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header .container .header__links .links__top {
+  width: 100%;
+  text-align: right;
+}
+
+header .container .header__links .links__top a {
+  font-size: 15px;
+  margin: auto 0;
+}
+
+header .container .header__links .links__top a:first-child {
+  margin-right: 30px;
+}
+
+header .container .header__links .links__bottom {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+}
+
+header .container .header__links .links__bottom a {
+  color: #00b4d2;
+  font-family: "Century Gothic";
+  font-weight: 600;
+  margin: auto 0;
+  margin-right: 10px;
+  font-size: 17px;
+  padding: 5px 10px;
+}
+
+header .container .header__links .links__bottom a:hover {
+  color: #fff;
+  background: #00b4d2;
+}
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider .slide {
+  width: 100%;
+  height: 550px;
+}
+
+.slider .slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.slider .slick-arrow {
+  position: absolute;
+  z-index: 4;
+}
+
+.slider .slick-prev {
+  top: 50%;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.slider .slick-prev img {
+  width: 50px;
+}
+
+.slider .slick-next {
+  top: 50%;
+  right: 0;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.slider .slick-next img {
+  width: 50px;
+}
+
+.slider .slick-dots {
+  position: absolute;
+  z-index: 4;
+  bottom: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 8%;
+  left: 46%;
+}
+
+.slider .slick-dots li {
+  width: 25px;
+  height: 13px;
+}
+
+.slider .slick-dots button {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  color: transparent;
+  background: rgba(221, 221, 221, 0.5);
+  border-radius: 7.5px;
+  border: solid 2px rgba(255, 255, 255, 0.5);
+}
+
+.slider .slick-dots button:hover {
+  background: #ddd;
+  border: solid 2px #fff;
+}
+
+.slider .slick-dots .slick-active button {
+  background: #00a3cc;
+  border: solid 2px #fff;
+}
